@@ -64,21 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+/* make the navbar scrollable*/
 /* navbar */
 .navigation {
     width: 1100px;
-    height: 50px;
-    position: relative;
+    height: 60px;
     margin-top: 30px;
     margin: 0 auto;
     padding-top: 20px;
     background-color: #88B9DF;
+    border: 1px solid #000B1B;
+   
 }
 
 a {
     margin-left: 70px;
     text-decoration: none;
-    color: /(#C0C0C0;
+    color: /*#C0C0C0;*/ black;
 }
 
 .logo {
@@ -96,19 +101,19 @@ a {
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 90px;
     display: inline-block;
-    margin-left: 260px;
+    margin-left: 230px;
     position: relative;
     top: -100px;
 }
 
 /* indent the on demand text */
-
+/* first span element*/
 .move-1 {
     margin-left: -55px;
 }
-
+/* second span element*/
 .move-2 {
     margin-left: 60px;
 }
@@ -120,11 +125,12 @@ header img {
 
 button {
     position: relative;
-    right: 240px;
+    right: 280px;
     bottom: 60px;
     padding: 5px 40px;
     border: 1px solid black;
     background-color: white;
+    font-size: 15px;
 }
 
 
